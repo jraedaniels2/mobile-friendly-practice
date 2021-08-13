@@ -1,15 +1,21 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    background-color: blueviolet;
+    color: black;
 }
 
-.header{
-    position:relative;
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(54, 180, 238);
+  }
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: rgb(205, 238, 144);
     }
 
-h1 {
-    position:absolute;
-    left:50%;
-    top:100px;
-    text-align: center;
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
     }
+
