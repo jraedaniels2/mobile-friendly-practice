@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    position:relative;
+    }
+
+h1 {
+    position:absolute;
+    left:50%;
+    top:100px;
+    text-align: center;
+    }
